@@ -1,4 +1,4 @@
-package zajecia.homework.tv;
+package homework.tv;
 
 public class App {
     public static void main(String[] args) {

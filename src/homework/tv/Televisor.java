@@ -1,4 +1,4 @@
-package zajecia.homework.tv;
+package homework.tv;
 
 public class Televisor {
     private boolean isOn = false;
