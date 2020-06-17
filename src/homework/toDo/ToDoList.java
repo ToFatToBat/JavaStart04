@@ -51,7 +51,7 @@ public class ToDoList {
     public void mediumPriority() {
         if (priority == 0) {
             System.out.println("true");
-        }
+        }else System.out.println("false");
     }
 
     public void lowPriority() {
