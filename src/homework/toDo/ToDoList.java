@@ -1,20 +1,22 @@
 package homework.toDo;
 
+import static homework.toDo.Priority.*;
+
 public class ToDoList {
     private String name;
     private String description;
-    // private Priority priority;
-    private int priority;
+    private Priority priority;
+    // private int priority;
     Person person;
 
-    public ToDoList(String name, String description, int priority, Person person) {
+    public ToDoList(String name, String description, Priority priority, Person person) {
         this.name = name;
         this.description = description;
         this.priority = priority;
         this.person = person;
     }
 
-    public ToDoList(String name, String description, int priority) {
+    public ToDoList(String name, String description, Priority priority) {
         this.name = name;
         this.description = description;
         this.priority = priority;
@@ -42,19 +44,19 @@ public class ToDoList {
     }
 
     public boolean highPriority() {
-        if (priority > 0) {
+        if (priority == HIGH) {
             return true;
         } else return false;
     }
 
     public boolean mediumPriority() {
-        if (priority == 0) {
+        if (priority == MEDIUM) {
             return true;
         }else return false;
     }
 
     public boolean lowPriority() {
-        if (priority < 0) {
+        if (priority == LOW) {
             return true;
         }else return false;
 
