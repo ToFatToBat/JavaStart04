@@ -41,23 +41,22 @@ public class ToDoList {
         this.description = description;
     }
 
-    public void highPriority() {
+    public boolean highPriority() {
         if (priority > 0) {
-            System.out.println("true");
-        }else System.out.println("false");
-
+            return true;
+        } else return false;
     }
 
-    public void mediumPriority() {
+    public boolean mediumPriority() {
         if (priority == 0) {
-            System.out.println("true");
-        }else System.out.println("false");
+            return true;
+        }else return false;
     }
 
-    public void lowPriority() {
+    public boolean lowPriority() {
         if (priority < 0) {
-            System.out.println("true");
-        }else System.out.println("false");
+            return true;
+        }else return false;
 
     }
 

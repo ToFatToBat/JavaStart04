@@ -6,13 +6,15 @@ public class App {
         ToDoList zadanie1 = new ToDoList("Zakupy", "Domestos", -2,person1);
         ToDoList zadanie2 = new ToDoList("Zakupy chemii do detailingu", "ADBL Vampire, Fusso Soft99 Dark, ADBL Foam, Aqua APC", 3, person1);
 
-        zadanie1.lowPriority();
-        zadanie1.mediumPriority();
-        zadanie1.highPriority();
+        System.out.println(zadanie1.lowPriority());
+        System.out.println(zadanie1.mediumPriority());
+        System.out.println(zadanie1.highPriority());
 
-        zadanie2.lowPriority();
-        zadanie2.mediumPriority();
-        zadanie2.highPriority();
+
+        System.out.println(zadanie2.lowPriority());
+        System.out.println(zadanie2.mediumPriority());
+        System.out.println(zadanie2.highPriority());
+
 
 
     }
