@@ -66,7 +66,7 @@ public class ToDoList {
     public String toString() {
         return "ToDoList{" +
                 "name='" + name + '\'' +
-                ", description='" + description + '\'' +
+                ", description= '" + description + '\'' +
                 ", priority=" + priority +
                 ", person=" + person +
                 '}';
